@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'SIYUAN';
+    src: url('font/NotoSerifTC-Regular.ttf') format('truetype');
+  }
+  
+  body{
+    font-family:SIYUAN;
+  }
+
+.container-intro{
+
+    height:1200px;
+
+    background-image: url('images/bg_loop.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    padding: 50px;
+    font-size:20px;
+    color: rgb(70, 70, 70);
+}
+
+
+nav{
+    height:100px;
+    font-size:20px;
+}
+
+.nav-item:hover{
+    color: rgb(196, 196, 196) !important;
+    background-color: rgb(80, 80, 80);
+
+}
+
+.navbar-toggler{
+    background-color: rgb(255, 255, 255)
+
+}
+
+.nav-link{
+
+
+    margin:25px;
+
+}
+
+@media (max-width:600px){
+    nav{
+        height:auto;
+    }
+
+}
+
+.container-card{
+
+    margin:20px;
+}
+
+.card{
+
+    background-color: rgb(255, 255, 255);
+    height:250px;
+}
+
+.loginword{
+
+    text-decoration:none;
+    color: black;
+}
+
+.loginword:hover{
+
+    color: rgb(133, 133, 133);
+}
+
+.modal-header h3 {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal-content {
+    background-color: rgb(253, 253, 253);
+}
+
+.modal-body form .account,
+.modal-body form .password {
+    margin: 20px;
+    width: 90%;
+    height:60px;
+    border-radius: 20px;
+}
+
+.remem {
+    margin-left:20px;
+    margin-right:10px;
+    margin-bottom: 20px;
+}
+
+.modal-body form .btn {
+    width: 100%;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+
+footer{
+
+    height:60px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+
+}
+
+
+.card-footer form .btn{
+    width:100%;
+}
